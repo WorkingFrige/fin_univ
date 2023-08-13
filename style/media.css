@@ -1,0 +1,793 @@
+@media (max-width: 1299.98px) {
+  .promo__container {
+    flex-direction: column;
+  }
+  .promo__left-title {
+    font-size: 42px;
+  }
+  .promo__left-advantages {
+    justify-content: center;
+  }
+  .promo__left-advantages ul {
+    width: auto;a
+    flex-wrap: wrap;
+  }
+  .promo__right {
+    height: 395px;
+    margin: 0 auto;
+    background-position: center;
+    width: 100%;
+    max-width: 940px;
+    background-image: url("../img/page_1/promo/finka.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .promo__right img {
+    display: none;
+  }
+  .about__top {
+    flex-direction: column;
+  }
+  .about__top-left {
+    margin-bottom: 20px;
+  }
+  .about__top-left_paragraph, .about__top-left_achievements {
+    width: fit-content;
+  }
+  #burger {
+    display: block;
+  }
+  .header__top {
+    padding: 27px 0;
+    transition: none;
+  }
+  .header__top-btn {
+    display: none;
+  }
+  .header.active .header__bottom {
+    display: block;
+  }
+  .header__bottom {
+    display: none;
+    color: #fff;
+    background-color: #062D5B;
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+  }
+  .header__bottom-links {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+  }
+  .header__bottom-contact {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .header__bottom-social {
+    display: flex;
+    gap: 5px;
+  }
+  .header__bottom-social a, .header__bottom-social a img {
+    display: flex;
+  }
+  .header__bottom-search {
+    display: flex;
+    padding-bottom: 31px;
+  }
+  .header__bottom-search input {
+    width: 100%;
+    padding: 17px;
+    color: #4470A3;
+    font-size: 16px;
+  }
+  .header__bottom-search img {
+    height: 53px;
+  }
+  .header__bottom-nav {
+    padding-bottom: 40px;
+  }
+  .header__bottom-nav_ul {
+    flex-direction: column;
+    align-items: normal;
+  }
+  .header__bottom-nav_li {
+    padding: 15px 20px 15px 0;
+  }
+  .header__bottom-nav_li.open_able {
+    display: block;
+    transition: none;
+    margin-left: -65px;
+    margin-right: -65px;
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+  .header__bottom-nav_li.open_able.active {
+    background-color: #0D2440;
+  }
+  .header__bottom-nav_li.open_able.active > div {
+    background-color: #0D2440;
+  }
+  .header__bottom-nav_li.open_able svg {
+    margin-bottom: 2px;
+    vertical-align: middle;
+  }
+  .header__bottom-nav_li.open_able svg path {
+    fill: #fff;
+  }
+  .header__bottom-nav_li-inner {
+    position: relative;
+    top: 0;
+    padding-left: 80px;
+  }
+  .header__bottom-nav_li-inner ul {
+    flex-direction: column;
+    padding: 30px 0;
+    gap: 25px;
+  }
+  .header__bottom-nav_li-inner ul li ul {
+    padding: 0;
+  }
+  .header__bottom-nav_li-inner > ul li ul {
+    gap: 25px;
+  }
+  .header__bottom-nav_li:last-child {
+    display: none;
+  }
+  .shortnews__link {
+    display: flex;
+  }
+  .shortnews__top-link {
+    display: none;
+  }
+  .shortnews__swiper {
+    max-width: 590px;
+  }
+  .shortnews__bottom {
+    flex-wrap: nowrap;
+    min-width: 0;
+    justify-content: normal;
+    gap: 0;
+    padding-bottom: 40px;
+  }
+  .shortnews__bottom-item {
+    height: 251px !important;
+  }
+  .program-page .corporation__left {
+    padding-top: 30px;
+  }
+  .program-page .corporation__left-paragraph {
+    font-size: 20px;
+  }
+  .program-page .swiper {
+    max-width: 400px;
+  }
+  .program-page .swiper-wrapper {
+    padding-bottom: 40px;
+  }
+  .program-page .swiper-pagination {
+    bottom: 0 !important;
+  }
+  .program-page .main__content-left .about .accordion__item-title {
+    max-width: 650px;
+  }
+  .program-page .main__content-left .price__card-left {
+    min-width: 350px;
+  }
+  .program-page .main__content-left .price__card-left_title {
+    font-size: 32px;
+  }
+  .program-page .main__content-left .price__card-left_cost {
+    font-size: 62px;
+    margin-bottom: 40px;
+  }
+  .program-page .main__content-left .price__card-right {
+    width: fit-content;
+  }
+  .swiper .program:nth-child(even)::after {
+    background-color: rgba(2, 62, 132, 0.8) !important;
+  }
+}
+@media (max-width: 1199px) {
+  .programs-page .nav__filter-item_list ul {
+    gap: 30px;
+  }
+  .programs-page .nav__filter-item_list ul li label {
+    font-size: 18px;
+    gap: 10px;
+  }
+}
+@media (max-width: 1099.98px) {
+  .header__top-address {
+    display: none;
+  }
+  .consult__container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .consult__right {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .program-page .corporation__left {
+    padding-top: 30px;
+  }
+  .program-page .corporation__left-paragraph {
+    font-size: 20px;
+  }
+  .program-page .main__content__container {
+    justify-content: center;
+  }
+  .program-page .main__content-left {
+    padding-right: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    width: fit-content;
+    padding: 23px 0;
+    width: 100%;
+  }
+  .program-page .main__content-left .about__text {
+    font-size: 18px;
+  }
+  .program-page .main__content-left .price__card-left {
+    min-width: 350px;
+  }
+  .program-page .main__content-left .price__card-left_title {
+    font-size: 32px;
+  }
+  .program-page .main__content-left .price__card-left_cost {
+    font-size: 62px;
+  }
+  .program-page .main__content-left .price__card-right {
+    width: fit-content;
+  }
+  .program-page .main__content-left .for, .program-page .main__content-left .requirements, .program-page .main__content-left .documents {
+    display: block !important;
+  }
+  .program-page .main__content-left .info, .program-page .main__content-left .leader, .program-page .main__content-left .contacts {
+    display: flex !important;
+  }
+  .program-page .main__content-left .leader {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .program-page .main__content-left .leader__description {
+    text-align: center;
+  }
+  .program-page .main__content-left .leader__photo {
+    max-width: 300px;
+  }
+  .program-page .main__content-left .contacts {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .program-page .main__content-right {
+    display: none;
+  }
+  .enroll-page .promo__card-subtitle {
+    font-size: 28px;
+  }
+  .enroll-page .promo__card-title {
+    font-size: 32px;
+  }
+  .enroll-page .promo__card-description {
+    font-size: 32px;
+  }
+  .enroll-page .promo__card-price {
+    font-size: 120px;
+  }
+  .enroll-page .promo__card img {
+    width: 200px;
+  }
+}
+@media (max-width: 991.98px) {
+  .corporation {
+    display: none;
+  }
+  .program-page .corporation {
+    display: block;
+  }
+}
+@media (max-width: 939.98px) {
+  .promo__right {
+    margin-left: -15px;
+    margin-right: -15px;
+    width: auto;
+  }
+  .programs__top-link, .branches__top-link {
+    display: none;
+  }
+  .programs__link, .branches__link {
+    display: flex;
+    margin-top: 22px;
+  }
+  .programs__link {
+    justify-content: center;
+  }
+  .enroll-page .promo__card-price {
+    font-size: 90px;
+  }
+  .enroll-page .promo__card img {
+    bottom: 20px;
+  }
+  .enroll-page .enroll {
+    padding: 30px 0 60px;
+  }
+}
+@media (max-width: 804.98px) {
+  .programs-page .nav {
+    padding-bottom: 0;
+  }
+  .programs-page .nav__filter {
+    flex-direction: column;
+    align-items: center;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .programs-page .nav__filter-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .programs-page .nav__filter-item_inner {
+    position: inherit;
+    flex-direction: column;
+    background-color: transparent;
+  }
+  .programs-page .nav__filter-item_list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .programs-page .nav__filter-item_list ul {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .programs-page .nav__filter-item_list ul li label span::after {
+    top: -20%;
+  }
+  .programs-page .nav__filter-item.active .nav__filter-item_list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+@media (max-width: 767.98px) {
+  .underscore__title {
+    font-size: 30px;
+  }
+  .header__top-logo img {
+    width: 200px;
+  }
+  .header__top-links {
+    display: none;
+  }
+  .about__top-left_paragraph {
+    font-size: 20px;
+  }
+  .about__top-left_achievements {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about__bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .branches__bottom {
+    gap: 10px;
+  }
+  .branches__bottom-item {
+    font-size: 18px;
+    padding: 15px 20px;
+  }
+  .footer__desktop {
+    display: none;
+  }
+  .footer__mobile {
+    display: block;
+  }
+  .footer__mobile.footer__links {
+    display: flex;
+  }
+  .footer__mobile.footer__logo {
+    min-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .footer__mobile.footer__logo a, .footer__mobile.footer__logo img {
+    max-width: 315px;
+  }
+  .footer__mobile.footer__logo a {
+    margin: 0 auto;
+    height: 60px;
+  }
+  .footer__mobile.footer__contacts .footer__contacts-item:first-child, .footer__mobile.footer__contacts .footer__contacts-item img {
+    display: none;
+  }
+  .footer__mobile.footer__policy {
+    text-align: center;
+    min-width: 100%;
+  }
+  .program-page .corporation__container {
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .program-page .corporation__right {
+    background: url("../img/page_3/corp.png") center no-repeat;
+    height: 400px;
+    margin-left: -15px;
+    margin-right: -15px;
+    width: auto;
+  }
+  .program-page .corporation__right img {
+    display: none;
+  }
+  .program-page .price__card {
+    padding: 10px 13px !important;
+    padding-bottom: 40px !important;
+  }
+  .program-page .price__card-left {
+    position: relative;
+  }
+  .program-page .price__card-left_description {
+    margin-top: 10px;
+  }
+  .program-page .price__card-right {
+    width: 200px !important;
+  }
+  .program-page .other__top-link {
+    display: none;
+  }
+  .program-page .other__link {
+    margin-top: 40px;
+    display: flex;
+  }
+  .enroll-page .promo__card {
+    padding: 20px;
+  }
+  .enroll-page .promo__card-subtitle {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .enroll-page .promo__card-title {
+    font-size: 26px;
+  }
+  .enroll-page .promo__card-price {
+    font-size: 80px;
+  }
+  .enroll-page .promo__card img {
+    width: 150px;
+    bottom: 55px;
+  }
+  .enroll-page .enroll__form-labels {
+    gap: 30px;
+  }
+  .enroll-page .enroll__form-labels_item {
+    font-size: 22px;
+  }
+  .enroll-page .enroll__form-inputs_top, .enroll-page .enroll__form-inputs_bottom {
+    flex-direction: column;
+  }
+  .enroll-page .enroll__form-inputs_item {
+    min-width: 0;
+  }
+  .programs-page .nav__filter-item {
+    font-size: 18px;
+  }
+  .programs-page .nav__filter-item_inner {
+    top: 110px;
+  }
+  .news-item-page .content-title {
+    font-size: 24px;
+  }
+  .news-item-page .first__text {
+    font-size: 14px;
+  }
+  .news-item-page .second__list-item {
+    font-size: 14px;
+  }
+}
+@media (max-width: 639.98px) {
+  .index-page .swiper {
+    height: 700px;
+    width: 305px;
+  }
+  .program-page .swiper {
+    width: 305px;
+  }
+  .program-page .swiper-wrapper {
+    gap: 0;
+  }
+  .shortnews__bottom-item {
+    flex-direction: column;
+    width: 305px !important;
+    gap: 25px;
+  }
+  .shortnews__bottom-item_img {
+    width: 305px;
+    height: 360px;
+  }
+  .shortnews__bottom-item_img img {
+    width: 305px;
+  }
+  .main__content .teachers__list {
+    gap: 60px;
+  }
+  .main__content .teachers__list-item {
+    flex-direction: column;
+  }
+  .main__content .teachers__list-item_left {
+    max-width: 240px;
+  }
+  .main__content .teachers__list-item .teachers__about-description {
+    font-size: 14px;
+  }
+  .main__content .price {
+    width: 100% !important;
+  }
+  .main__content .price__card {
+    margin: 0 auto !important;
+    position: relative !important;
+    padding: 10px 6px !important;
+  }
+  .main__content .price__card-left {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  .main__content .price__card-left_description {
+    font-size: 14px !important;
+    max-width: 280px !important;
+    margin-right: 0 !important;
+  }
+  .main__content .price__card-left_cost {
+    font-size: 32px !important;
+    text-shadow: 2px 2px #023E84 !important;
+    margin-top: 20px !important;
+  }
+  .main__content .price__card-left_btn {
+    display: block;
+    width: 100%;
+    padding: 15px 7px !important;
+    text-align: center;
+  }
+  .main__content .price__card-left_title, .main__content .price__card-left_description, .main__content .price__card-left_cost {
+    max-width: 295px !important;
+  }
+  .main__content .price__card-right {
+    width: 120px !important;
+    position: absolute !important;
+    top: 30% !important;
+    right: 0 !important;
+  }
+  .enroll-page .promo__card-title {
+    font-size: 26px;
+  }
+  .enroll-page .promo__card-description {
+    font-size: 24px;
+  }
+  .enroll-page .promo__card-price {
+    font-size: 68px;
+  }
+  .enroll-page .promo__card img {
+    width: 120px;
+    bottom: 35px;
+  }
+  .enroll-page .enroll__title {
+    font-size: 34px;
+  }
+  .enroll-page .enroll__form {
+    align-items: normal;
+  }
+  .enroll-page .enroll__form-labels {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .enroll-page .enroll__form-labels_item {
+    font-size: 22px;
+  }
+  .news-page .news__content {
+    gap: 50px;
+    width: 100%;
+  }
+  .news-page .news__content-item {
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+  }
+  .news-page .news__content-item_img, .news-page .news__content-item_img img {
+    width: 360px;
+    max-width: 100%;
+    height: auto;
+  }
+  .programs-page .title__text {
+    font-size: 32px;
+  }
+}
+@media (max-width: 589.98px) {
+  .promo__left-title {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  .promo__left-subtitle {
+    font-size: 16px;
+    margin-bottom: 37px;
+  }
+  .promo__left-advantages p {
+    font-size: 14px;
+  }
+  .promo__left-advantages img {
+    height: 30px;
+  }
+}
+@media (max-width: 549.98px) {
+  #burger {
+    width: 30px;
+    min-width: 30px;
+  }
+  #burger.active::before {
+    transform: rotate(45deg);
+    transform-origin: 0% 50%;
+  }
+  #burger.active::after {
+    transform: rotate(-45deg);
+    transform-origin: 10% 100%;
+  }
+  #burger.active span {
+    opacity: 0;
+  }
+  .header__top-contacts {
+    font-size: 12px;
+  }
+  .header__bottom {
+    color: #fff;
+    background-color: #062D5B;
+  }
+  .header__bottom-nav_ul {
+    flex-direction: column;
+    align-items: normal;
+  }
+  .header__bottom-nav_li {
+    padding: 15px 20px 15px 0;
+  }
+  .header__bottom-nav_li.open_able {
+    display: block;
+  }
+  .header__bottom-nav_li.open_able::after {
+    background: url("../img/global/arrow_down_white.svg") no-repeat;
+    left: 150px;
+    top: 20px;
+  }
+  .header__bottom-nav_li-inner {
+    position: relative;
+    top: 0;
+    padding-left: 40px;
+  }
+  .header__bottom-nav_li-inner ul {
+    flex-direction: column;
+    padding: 30px 0;
+    gap: 25px;
+  }
+  .header__bottom-nav_li-inner ul li ul {
+    padding: 0;
+  }
+  .header__bottom-nav_li-inner > ul li ul {
+    gap: 25px;
+  }
+  .header__bottom-nav_li:last-child {
+    display: none;
+  }
+  .promo__left-advantages {
+    justify-content: normal;
+  }
+  .promo__left-advantages ul {
+    flex-direction: column;
+  }
+  .program__title {
+    font-size: 16px !important;
+  }
+  .program__subtitle {
+    font-size: 14px !important;
+  }
+  .program__info-item {
+    font-size: 14px !important;
+  }
+  .about__bottom-left_title {
+    font-size: 22px;
+  }
+  .about__bottom-left_text p {
+    font-size: 16px;
+  }
+  .consult__left-title {
+    font-size: 24px;
+  }
+  .popup__title {
+    font-size: 26px;
+  }
+  .popup__form-input {
+    font-size: 16px;
+  }
+  .popup__form label a {
+    font-size: 14px;
+  }
+  .program-page .main__content .about .accordion__item-title {
+    font-size: 16px;
+  }
+  .program-page .main__content .about .accordion__item-footer {
+    font-size: 14px;
+  }
+  .enroll-page .promo__card-title {
+    font-size: 22px;
+  }
+  .enroll-page .promo__card-description {
+    font-size: 18px;
+  }
+  .enroll-page .promo__card-price {
+    font-size: 48px;
+  }
+  .enroll-page .promo__card img {
+    width: 100px;
+    bottom: 15px;
+  }
+  .more__link p {
+    font-size: 16px !important;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 449.98px) {
+  .consult__right input, button {
+    width: 100%;
+    max-width: none;
+  }
+  .enroll-page .promo__card-description {
+    font-size: 16px;
+    max-width: 178px;
+    margin-bottom: 20px;
+  }
+  .enroll-page .promo__card-title {
+    font-size: 24px;
+  }
+  .enroll-page .promo__card img {
+    top: 45px;
+    right: 10px;
+  }
+  .enroll-page .promo__card-link {
+    display: block;
+  }
+}
+@media (max-width: 369.98px) {
+  .header__top-logo img {
+    width: 160px;
+  }
+  .header__top-contacts {
+    font-size: 10px;
+  }
+  .header__bottom-nav_li-inner {
+    padding-left: 10px;
+  }
+  .program-page .main__content .teachers__title {
+    font-size: 36px;
+  }
+  .enroll-page .promo__card-description {
+    font-size: 14px;
+    max-width: 178px;
+    margin-bottom: 20px;
+  }
+  .enroll-page .promo__card-title {
+    font-size: 20px;
+  }
+  .enroll-page .promo__card img {
+    bottom: 65px;
+    right: 10px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

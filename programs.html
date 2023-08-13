@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="style/starter.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script/script.js" defer></script>
+</head>
+<body>
+<div class="wrapper programs-page">
+    <header class="header" id="header">
+        <div class="header__top">
+            <div class="header__top__container">
+                <a href="index.html" class="header__top-logo"><img src="img/logo.svg" alt="Логотип"></a>
+                <a href="https://yandex.ru/maps/?text=Москва, пр-кт Ленинградский, д. 49/2" target="_blank"
+                   class="header__top-address">Москва, пр-кт Ленинградский, д. 49/2</a>
+                <div class="header__top-contacts">
+                    <a href="tel:+74995531036" class="header__top-contacts_item">+7 (499) 553-10-36</a>
+                    <a href="mailto:ifm@fa.ru" class="header__top-contacts_item">ifm@fa.ru</a>
+                </div>
+                <div class="header__top-links">
+                    <a href="" class="header__top-links_item"><img src="img/social/yt.svg" alt="Мы на YouTube"></a>
+                    <a href="" class="header__top-links_item"><img src="img/social/tw.svg" alt="Мы в Twitter"></a>
+                    <a href="" class="header__top-links_item"><img src="img/social/tg.svg" alt="Мы в Telegram"></a>
+                    <a href="" class="header__top-links_item"><img src="img/social/vk.svg" alt="Мы ВКонтакте"></a>
+                </div>
+                <button class="header__top-btn"><img src="img/global/loupe.svg" alt="Поиск по сайту"></button>
+
+                <div id="burger" class="header__burger" aria-label="Открыть навигацию по сайту">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="header__bottom__container">
+                <nav class="header__bottom-nav" id="nav">
+                    <ul class="header__bottom-nav_ul">
+                        <li class="header__bottom-nav_li open_able">
+                            Направления
+                            <svg width="16" height="7" viewBox="0 0 16 7" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <g id="formkit:down">
+                                    <path id="Vector"
+                                          d="M8 6.49999C7.93442 6.50079 7.86941 6.48786 7.80913 6.46202C7.74885 6.43619 7.69465 6.39803 7.65 6.34999L3.15 1.84999C2.95 1.64999 2.95 1.33999 3.15 1.13999C3.35 0.93999 3.66 0.93999 3.86 1.13999L8.01 5.28999L12.15 1.14999C12.35 0.94999 12.66 0.94999 12.86 1.14999C13.06 1.34999 13.06 1.65999 12.86 1.85999L8.36 6.35999C8.26 6.45999 8.13 6.50999 8.01 6.50999L8 6.49999Z"
+                                          fill="black"/>
+                                </g>
+                            </svg>
+                            <div class="header__bottom-nav_li-inner">
+                                <ul class="open_able__container">
+                                    <li>
+                                        <ul>
+                                            <li><a href="">Экономика и финансы</a></li>
+                                            <li><a href="">Маркетинг и продажи</a></li>
+                                            <li><a href="">IT</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li><a href="">Государственное управление</a></li>
+                                            <li><a href="">Кадровое обеспечение</a></li>
+                                            <li><a href="">Бизнес и управление</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li><a href="">Налоги и налогообложение</a></li>
+                                            <li><a href="">Юриспруденция</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header__bottom-nav_li"><a href="">О проекте</a></li>
+                        <li class="header__bottom-nav_li"><a href="">Новости</a></li>
+                        <li class="header__bottom-nav_li"><a href="">Учебный портал</a></li>
+                        <li class="header__bottom-nav_li"><a href="">Контакты</a></li>
+                        <li class="header__bottom-nav_li open-consult-popup">Консультация</li>
+                    </ul>
+                </nav>
+                <div class="header__bottom-links">
+                    <div class="header__bottom-contact">
+                        <a href="tel:+74995531036">+7 (499) 553-10-36</a>
+                        <a href="mailto:ifm@fa.ru">ifm@fa.ru</a>
+                    </div>
+                    <div class="header__bottom-social">
+                        <a href=""><img src="img/social/yt.svg" alt="Мы на YouTube"></a>
+                        <a href=""><img src="img/social/tw.svg" alt="Мы в Twitter"></a>
+                        <a href=""><img src="img/social/tg.svg" alt="Мы в Telegram"></a>
+                        <a href=""><img src="img/social/vk.svg" alt="Мы ВКонтакте"></a>
+                    </div>
+                </div>
+                <form action="" class="header__bottom-search">
+                    <input type="text" placeholder="Поиск по сайту">
+                    <img src="img/global/loupe.svg" alt="Поиск по сайту">
+                </form>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="title">
+            <div class="title__container">
+                <h2 class="title__text">Программы обучения Института финансового менеджмента</h2>
+            </div>
+        </section>
+        <section class="nav">
+            <div class="nav__container">
+                <p class="nav__text">
+                    <a href="index.html">Главная</a>
+                    \
+                    <a href="programs.html">Программы обучения</a>
+                </p>
+                <ul class="nav__filter">
+                    <li class="nav__filter-item open_able">
+                        <p>
+                            Направления
+                            <img src="img/global/arrow_down_white.svg" alt="">
+                        </p>
+                        <div class="nav__filter-item_inner">
+                            <div class="nav__filter-item_inner__container">
+                                <ul class="nav__filter-item_active"></ul>
+                                <ul class="nav__filter-item_list">
+                                    <ul>
+                                        <li>
+                                            <label>
+                                                <input type="checkbox" name="nav_filter_program"
+                                                       value="Экономика и финансы">
+                                                <span></span>
+                                                Экономика и финансы
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                <input type="checkbox" name="nav_filter_program"
+                                                       value="Маркетинг и продажи">
+                                                <span></span>
+                                                Маркетинг и продажи
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                <input type="checkbox" name="nav_filter_program"
+                                                       value="Налоги и налогообложение">
+                                                <span></span>
+                                                Налоги и налогообложение
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <label>
+                                                <input type="checkbox" name="nav_filter_program"
+                                                       value="Кадровое обеспечение">
+                                                <span></span>
+                                                Кадровое обеспечение
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                <input type="checkbox" name="nav_filter_program"
+                                                       value="Бизнес и управление">
+                                                <span></span>
+                                                Бизнес и управление
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                <input type="checkbox" name="nav_filter_program"
+                                                       value="Государственное управление">
+                                                <span></span>
+                                                Государственное управление
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <label>
+                                                <input type="checkbox" name="nav_filter_program" value="Юриспруденция">
+                                                <span></span>
+                                                Юриспруденция
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                <input type="checkbox" name="nav_filter_program" value="IT">
+                                                <span></span>
+                                                IT
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__filter-item open_able">
+                        <p>
+                            Длительность
+                            <img src="img/global/arrow_down_white.svg" alt="">
+                        </p>
+                        <div class="nav__filter-item_inner">
+                            <div class="nav__filter-item_inner__container">
+                                <ul class="nav__filter-item_active">
+                                </ul>
+                                <ul class="nav__filter-item_list one_row">
+                                    <ul>
+                                        <li>
+                                            <label>
+                                                <input type="checkbox" name="nav_filter_time" value="До 40 ак. часов">
+                                                <span></span>
+                                                До 40 ак. часов
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                <input type="checkbox" name="nav_filter_time"
+                                                       value="40 - 100 ак. часов">
+                                                <span></span>
+                                                40 - 100 ак. часов
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                <input type="checkbox" name="nav_filter_time" value="101+ ак. часов">
+                                                <span></span>
+                                                101+ ак. часов
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__filter-item open_able">
+                        <p>
+                            Стоимость
+                            <img src="img/global/arrow_down_white.svg" alt="">
+                        </p>
+                        <div class="nav__filter-item_inner">
+                            <div class="nav__filter-item_inner__container">
+                                <ul class="nav__filter-item_active">
+                                </ul>
+
+                                <ul class="nav__filter-item_list one_row">
+                                    <ul>
+                                        <li>
+                                            <label>
+                                                <input type="checkbox" name="nav_filter_price" value="До 30 000 ₽">
+                                                <span></span>
+                                                До 30 000 ₽
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                <input type="checkbox" name="nav_filter_price"
+                                                       value="30 000 - 100 000 ₽">
+                                                <span></span>
+                                                30 000 - 100 000 ₽
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label>
+                                                <input type="checkbox" name="nav_filter_price" value="101 000+ ₽">
+                                                <span></span>
+                                                101 000+ ₽
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="programs">
+            <div class="programs__container">
+                <div class="programs__bottom">
+                    <a href="" class="programs__bottom-item program">
+                        <h6 class="program__type">Финансы</h6>
+                        <h4 class="program__title">Главные изменения бухгалтерского и налогового учета в 2023 году</h4>
+                        <h5 class="program__subtitle">Программа повышения квалификации</h5>
+                        <ul class="program__info">
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/time.svg" alt="">
+                                <p>40 ак. ч.</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/salary.svg" alt="">
+                                <p>30 000 руб</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/computer.svg" alt="">
+                                <p>дистанционно</p>
+                            </li>
+                        </ul>
+                        <img src="img/global/arrow_right.svg" alt="" class="program__arrow">
+                    </a>
+                    <a href="" class="programs__bottom-item program">
+                        <h6 class="program__type">Финансы</h6>
+                        <h4 class="program__title">Главные изменения бухгалтерского и налогового учета в 2023 году</h4>
+                        <h5 class="program__subtitle">Программа повышения квалификации</h5>
+                        <ul class="program__info">
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/time.svg" alt="">
+                                <p>40 ак. ч.</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/salary.svg" alt="">
+                                <p>30 000 руб</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/computer.svg" alt="">
+                                <p>дистанционно</p>
+                            </li>
+                        </ul>
+                        <img src="img/global/arrow_right.svg" alt="" class="program__arrow">
+                    </a>
+                    <a href="" class="programs__bottom-item program">
+                        <h6 class="program__type">Финансы</h6>
+                        <h4 class="program__title">Главные изменения бухгалтерского и налогового учета в 2023 году</h4>
+                        <h5 class="program__subtitle">Программа повышения квалификации</h5>
+                        <ul class="program__info">
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/time.svg" alt="">
+                                <p>40 ак. ч.</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/salary.svg" alt="">
+                                <p>30 000 руб</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/computer.svg" alt="">
+                                <p>дистанционно</p>
+                            </li>
+                        </ul>
+                        <img src="img/global/arrow_right.svg" alt="" class="program__arrow">
+                    </a>
+                    <a href="" class="programs__bottom-item program">
+                        <h6 class="program__type">Финансы</h6>
+                        <h4 class="program__title">Главные изменения бухгалтерского и налогового учета в 2023 году</h4>
+                        <h5 class="program__subtitle">Программа повышения квалификации</h5>
+                        <ul class="program__info">
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/time.svg" alt="">
+                                <p>40 ак. ч.</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/salary.svg" alt="">
+                                <p>30 000 руб</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/computer.svg" alt="">
+                                <p>дистанционно</p>
+                            </li>
+                        </ul>
+                        <img src="img/global/arrow_right.svg" alt="" class="program__arrow">
+                    </a>
+                    <a href="" class="programs__bottom-item program">
+                        <h6 class="program__type">Финансы</h6>
+                        <h4 class="program__title">Главные изменения бухгалтерского и налогового учета в 2023 году</h4>
+                        <h5 class="program__subtitle">Программа повышения квалификации</h5>
+                        <ul class="program__info">
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/time.svg" alt="">
+                                <p>40 ак. ч.</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/salary.svg" alt="">
+                                <p>30 000 руб</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/computer.svg" alt="">
+                                <p>дистанционно</p>
+                            </li>
+                        </ul>
+                        <img src="img/global/arrow_right.svg" alt="" class="program__arrow">
+                    </a>
+                    <a href="" class="programs__bottom-item program">
+                        <h6 class="program__type">Финансы</h6>
+                        <h4 class="program__title">Главные изменения бухгалтерского и налогового учета в 2023 году</h4>
+                        <h5 class="program__subtitle">Программа повышения квалификации</h5>
+                        <ul class="program__info">
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/time.svg" alt="">
+                                <p>40 ак. ч.</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/salary.svg" alt="">
+                                <p>30 000 руб</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/computer.svg" alt="">
+                                <p>дистанционно</p>
+                            </li>
+                        </ul>
+                        <img src="img/global/arrow_right.svg" alt="" class="program__arrow">
+                    </a>
+                    <a href="" class="programs__bottom-item program">
+                        <h6 class="program__type">Финансы</h6>
+                        <h4 class="program__title">Главные изменения бухгалтерского и налогового учета в 2023 году</h4>
+                        <h5 class="program__subtitle">Программа повышения квалификации</h5>
+                        <ul class="program__info">
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/time.svg" alt="">
+                                <p>40 ак. ч.</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/salary.svg" alt="">
+                                <p>30 000 руб</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/computer.svg" alt="">
+                                <p>дистанционно</p>
+                            </li>
+                        </ul>
+                        <img src="img/global/arrow_right.svg" alt="" class="program__arrow">
+                    </a>
+                    <a href="" class="programs__bottom-item program">
+                        <h6 class="program__type">Финансы</h6>
+                        <h4 class="program__title">Главные изменения бухгалтерского и налогового учета в 2023 году</h4>
+                        <h5 class="program__subtitle">Программа повышения квалификации</h5>
+                        <ul class="program__info">
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/time.svg" alt="">
+                                <p>40 ак. ч.</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/salary.svg" alt="">
+                                <p>30 000 руб</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/computer.svg" alt="">
+                                <p>дистанционно</p>
+                            </li>
+                        </ul>
+                        <img src="img/global/arrow_right.svg" alt="" class="program__arrow">
+                    </a>
+                    <a href="" class="programs__bottom-item program">
+                        <h6 class="program__type">Финансы</h6>
+                        <h4 class="program__title">Главные изменения бухгалтерского и налогового учета в 2023 году</h4>
+                        <h5 class="program__subtitle">Программа повышения квалификации</h5>
+                        <ul class="program__info">
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/time.svg" alt="">
+                                <p>40 ак. ч.</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/salary.svg" alt="">
+                                <p>30 000 руб</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/computer.svg" alt="">
+                                <p>дистанционно</p>
+                            </li>
+                        </ul>
+                        <img src="img/global/arrow_right.svg" alt="" class="program__arrow">
+                    </a>
+                    <a href="" class="programs__bottom-item program">
+                        <h6 class="program__type">Финансы</h6>
+                        <h4 class="program__title">Главные изменения бухгалтерского и налогового учета в 2023 году</h4>
+                        <h5 class="program__subtitle">Программа повышения квалификации</h5>
+                        <ul class="program__info">
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/time.svg" alt="">
+                                <p>40 ак. ч.</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/salary.svg" alt="">
+                                <p>30 000 руб</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/computer.svg" alt="">
+                                <p>дистанционно</p>
+                            </li>
+                        </ul>
+                        <img src="img/global/arrow_right.svg" alt="" class="program__arrow">
+                    </a>
+                    <a href="" class="programs__bottom-item program">
+                        <h6 class="program__type">Финансы</h6>
+                        <h4 class="program__title">Главные изменения бухгалтерского и налогового учета в 2023 году</h4>
+                        <h5 class="program__subtitle">Программа повышения квалификации</h5>
+                        <ul class="program__info">
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/time.svg" alt="">
+                                <p>40 ак. ч.</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/salary.svg" alt="">
+                                <p>30 000 руб</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/computer.svg" alt="">
+                                <p>дистанционно</p>
+                            </li>
+                        </ul>
+                        <img src="img/global/arrow_right.svg" alt="" class="program__arrow">
+                    </a>
+                    <a href="" class="programs__bottom-item program">
+                        <h6 class="program__type">Финансы</h6>
+                        <h4 class="program__title">Главные изменения бухгалтерского и налогового учета в 2023 году</h4>
+                        <h5 class="program__subtitle">Программа повышения квалификации</h5>
+                        <ul class="program__info">
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/time.svg" alt="">
+                                <p>40 ак. ч.</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/salary.svg" alt="">
+                                <p>30 000 руб</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/computer.svg" alt="">
+                                <p>дистанционно</p>
+                            </li>
+                        </ul>
+                        <img src="img/global/arrow_right.svg" alt="" class="program__arrow">
+                    </a>
+                    <a href="" class="programs__bottom-item program">
+                        <h6 class="program__type">Финансы</h6>
+                        <h4 class="program__title">Главные изменения бухгалтерского и налогового учета в 2023 году</h4>
+                        <h5 class="program__subtitle">Программа повышения квалификации</h5>
+                        <ul class="program__info">
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/time.svg" alt="">
+                                <p>40 ак. ч.</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/salary.svg" alt="">
+                                <p>30 000 руб</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/computer.svg" alt="">
+                                <p>дистанционно</p>
+                            </li>
+                        </ul>
+                        <img src="img/global/arrow_right.svg" alt="" class="program__arrow">
+                    </a>
+                    <a href="" class="programs__bottom-item program">
+                        <h6 class="program__type">Финансы</h6>
+                        <h4 class="program__title">Главные изменения бухгалтерского и налогового учета в 2023 году</h4>
+                        <h5 class="program__subtitle">Программа повышения квалификации</h5>
+                        <ul class="program__info">
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/time.svg" alt="">
+                                <p>40 ак. ч.</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/salary.svg" alt="">
+                                <p>30 000 руб</p>
+                            </li>
+                            <li class="program__info-item">
+                                <img src="img/page_1/programs/computer.svg" alt="">
+                                <p>дистанционно</p>
+                            </li>
+                        </ul>
+                        <img src="img/global/arrow_right.svg" alt="" class="program__arrow">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="corporation">
+            <div class="corporation__container">
+                <div class="corporation__left">
+                    <h3 class="corporation__left-title">Корпоративное обучение</h3>
+                    <p class="corporation__left-paragraph">Организуем корпоративное обучение по любой из наших программ.
+                        Оставьте заявку, мы уточним детали
+                        и подготовим коммерческое предложение.</p>
+                    <button class="corporation__left-btn open-consult-popup">Консультация</button>
+                </div>
+                <div class="corporation__right">
+                    <img src="img/page_1/corporation/photo.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="consult">
+            <div class="consult__container">
+                <div class="consult__left">
+                    <h3 class="consult__left-title">Нужна консультация?</h3>
+                    <p class="consult__left-text">Заполните форму - мы свяжемся с вами
+                        и с удовольствием ответим на любой вопрос</p>
+                </div>
+                <form action="" class="consult__right">
+                    <input type="hidden" name="consult">
+                    <input type="text" class="consult__right-input" placeholder="Имя">
+                    <input inputmode="numeric" type="text" class="consult__right-input" placeholder="Телефон">
+                    <button class="consult__right-submit">Консультация</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <a href="index.html" class="footer__logo footer__desktop"><img src="img/logo.svg" alt="Логотип"></a>
+            <ul class="footer__contacts footer__desktop">
+                <li class="footer__contacts-item">
+                    <a href="https://yandex.ru/maps/?text=Москва, пр-кт Ленинградский, д. 49/2"
+                       target="_blank" class="header__top-contacts_item"
+                    >
+                        <img src="img/global/map_point.svg" alt="">
+                        Москва, пр-кт Ленинградский, д. 49/2
+                    </a>
+                </li>
+                <li class="footer__contacts-item">
+                    <a href="tel:+74995531036" class="header__top-contacts_item">
+                        <img src="img/global/phone.svg" alt="">
+                        +7 (499) 553-10-36
+                    </a>
+                </li>
+                <li class="footer__contacts-item">
+                    <a href="mailto:ifm@fa.ru" class="header__top-contacts_item">
+                        <img src="img/global/mail.svg" alt="">
+                        ifm@fa.ru
+                    </a>
+                </li>
+            </ul>
+            <div class="footer__policy footer__desktop">
+                <a href="">Политика конфиденциальности
+                    и обработки персональных данных</a>
+                <p>Разработка и продвижение сайта -<br> <a href="https://etalon-web.ru/"
+                                                           target="_blank">etalon-web.ru</a></p>
+            </div>
+            <div class="footer__links footer__desktop">
+                <a href="" class="footer__links-item"><img src="img/social/yt.svg" alt="Мы на YouTube"></a>
+                <a href="" class="footer__links-item"><img src="img/social/tw.svg" alt="Мы в Twitter"></a>
+                <a href="" class="footer__links-item"><img src="img/social/tg.svg" alt="Мы в Telegram"></a>
+                <a href="" class="footer__links-item"><img src="img/social/vk.svg" alt="Мы ВКонтакте"></a>
+            </div>
+
+            <div class="footer__logo footer__mobile">
+                <a href="index.html"><img src="img/logo.svg" alt="Логотип"></a>
+            </div>
+            <div class="footer__links footer__mobile">
+                <a href="" class="footer__links-item"><img src="img/social/yt.svg" alt="Мы на YouTube"></a>
+                <a href="" class="footer__links-item"><img src="img/social/tw.svg" alt="Мы в Twitter"></a>
+                <a href="" class="footer__links-item"><img src="img/social/tg.svg" alt="Мы в Telegram"></a>
+                <a href="" class="footer__links-item"><img src="img/social/vk.svg" alt="Мы ВКонтакте"></a>
+            </div>
+            <ul class="footer__contacts footer__mobile">
+                <li class="footer__contacts-item">
+                    <a href="https://yandex.ru/maps/?text=Москва, пр-кт Ленинградский, д. 49/2"
+                       target="_blank" class="header__top-contacts_item"
+                    >
+                        <img src="img/global/map_point.svg" alt="">
+                        Москва, пр-кт Ленинградский, д. 49/2
+                    </a>
+                </li>
+                <li class="footer__contacts-item">
+                    <a href="tel:+74995531036" class="header__top-contacts_item">
+                        <img src="img/global/phone.svg" alt="">
+                        +7 (499) 553-10-36
+                    </a>
+                </li>
+                <li class="footer__contacts-item">
+                    <a href="mailto:ifm@fa.ru" class="header__top-contacts_item">
+                        <img src="img/global/mail.svg" alt="">
+                        ifm@fa.ru
+                    </a>
+                </li>
+            </ul>
+            <div class="footer__policy footer__mobile">
+                <a href="">Политика конфиденциальности
+                    и обработки персональных данных</a>
+                <p>Разработка и продвижение сайта -<br> <a href="https://etalon-web.ru/"
+                                                           target="_blank">etalon-web.ru</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup popup__consultation" id="consultPopup">
+        <div class="popup__container">
+            <h2 class="popup__title">Заявка на консультацию</h2>
+            <form action="" class="popup__form">
+                <input type="text" class="popup__form-input" placeholder="Имя">
+                <input type="text" inputmode="numeric" class="popup__form-input" placeholder="Телефон">
+                <button class="popup__form-btn">Отправить</button>
+                <label>
+                    <input type="checkbox" checked disabled class="popup__form-checkbox">
+                    <a href="">Согласие на обработку персональных данных</a>
+                </label>
+            </form>
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"
+                 class="closePopup">
+                <g id="clarity:close-line" clip-path="url(#clip0_77_4379)">
+                    <path id="Vector"
+                          d="M26.9592 25L38.4731 13.4861C38.7006 13.2204 38.8195 12.8786 38.806 12.5291C38.7925 12.1795 38.6476 11.8479 38.4003 11.6006C38.1529 11.3532 37.8213 11.2083 37.4718 11.1948C37.1222 11.1813 36.7805 11.3002 36.5148 11.5278L25.0009 23.0416L13.487 11.5139C13.2255 11.2523 12.8707 11.1054 12.5009 11.1054C12.131 11.1054 11.7763 11.2523 11.5148 11.5139C11.2532 11.7754 11.1063 12.1301 11.1063 12.5C11.1063 12.8698 11.2532 13.2246 11.5148 13.4861L23.0426 25L11.5148 36.5139C11.3694 36.6384 11.2513 36.7916 11.1679 36.9639C11.0846 37.1362 11.0377 37.3239 11.0303 37.5152C11.0229 37.7065 11.0552 37.8972 11.125 38.0754C11.1948 38.2537 11.3007 38.4155 11.4361 38.5509C11.5714 38.6862 11.7333 38.7922 11.9115 38.862C12.0898 38.9318 12.2805 38.964 12.4718 38.9566C12.6631 38.9493 12.8508 38.9024 13.0231 38.819C13.1954 38.7357 13.3486 38.6176 13.4731 38.4722L25.0009 26.9583L36.5148 38.4722C36.7805 38.6997 37.1222 38.8186 37.4718 38.8051C37.8213 38.7916 38.1529 38.6467 38.4003 38.3994C38.6476 38.152 38.7925 37.8204 38.806 37.4709C38.8195 37.1213 38.7006 36.7796 38.4731 36.5139L26.9592 25Z"
+                          fill="white"/>
+                </g>
+                <defs>
+                    <clipPath id="clip0_77_4379">
+                        <rect width="50" height="50" fill="white"/>
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+    </div>
+</div>
+</body>
+</html>
